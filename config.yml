@@ -1,0 +1,76 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: MatrixCore
+theme: PaperMod
+paginate: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    title: MatrixCore
+    description: "MatrixCore Development Blog"
+    keywords: [Blog, iOS, Matrix]
+    author: Finn Behrens
+    DateFormat: "02.01.2006"
+    defaultTheme: auto
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        disableFingerprinting: true
+    homeInfoParams:
+      Title: "MatrixCore"
+      Content: "Matrix swift sdk"
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/matrixcore/matrixcore"
+
+    editPost:
+      URL: "https://github.com/MatrixCore/blog/content"
+      Text: "Suggest Changes"
+      appendFilePath: true
+
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+menu:
+    main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+        - identifier: nio
+          name: Nio
+          url: https://nio.chat
+          weight: 30
