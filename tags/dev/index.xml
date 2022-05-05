@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dev on MatrixCore</title>
+    <link>http://example.org/tags/dev/</link>
+    <description>Recent content in dev on MatrixCore</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 May 2022 13:03:19 +0200</lastBuildDate><atom:link href="http://example.org/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev Blog 01</title>
+      <link>http://example.org/dev-blog-01/</link>
+      <pubDate>Wed, 04 May 2022 13:03:19 +0200</pubDate>
+      
+      <guid>http://example.org/dev-blog-01/</guid>
+      <description>After writing some code for MatrixCore, MatrixSQLiteStore and nio/matrixcore-sqlite, I decided I should start a blog.
+Deciding on a Database Rewriting the database code 1, 2, or 3 times I started the MatrixCore database code based on Apples Core Data framework. This did integrate nicely into SwiftUI as it provides a special viewContext, which is designed to be used for UI requests. But the class hierarchies CoreData uses is not that good suited to store chat messages.</description>
+    </item>
+    
+  </channel>
+</rss>
