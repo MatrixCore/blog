@@ -2,21 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/tags/database/</loc>
+    <loc>http://blog.matrixcore.dev/tags/database/</loc>
     <lastmod>2022-05-04T13:03:19+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/dev/</loc>
+    <loc>http://blog.matrixcore.dev/tags/dev/</loc>
     <lastmod>2022-05-04T13:03:19+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/dev-blog-01/</loc>
+    <loc>http://blog.matrixcore.dev/posts/dev-blog-01/</loc>
     <lastmod>2022-05-04T13:03:19+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>http://blog.matrixcore.dev/</loc>
     <lastmod>2022-05-04T13:03:19+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://blog.matrixcore.dev/posts/</loc>
     <lastmod>2022-05-04T13:03:19+02:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://blog.matrixcore.dev/tags/</loc>
+    <lastmod>2022-05-04T13:03:19+02:00</lastmod>
+  </url><url>
+    <loc>http://blog.matrixcore.dev/categories/</loc>
   </url>
 </urlset>

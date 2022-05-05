@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MatrixCore</title>
-    <link>http://blog.matrixcore.dev/</link>
-    <description>Recent content on MatrixCore</description>
+    <title>Posts on MatrixCore</title>
+    <link>http://blog.matrixcore.dev/posts/</link>
+    <description>Recent content in Posts on MatrixCore</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 May 2022 13:03:19 +0200</lastBuildDate><atom:link href="http://blog.matrixcore.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 May 2022 13:03:19 +0200</lastBuildDate><atom:link href="http://blog.matrixcore.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dev Blog 01</title>
       <link>http://blog.matrixcore.dev/posts/dev-blog-01/</link>
