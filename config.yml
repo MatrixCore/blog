@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: http://blog.matrixcore.dev/
 languageCode: en-us
 title: MatrixCore
 theme: PaperMod
@@ -13,6 +13,12 @@ pygmentsUseClasses: true
 minify:
     disableXML: true
     minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
     title: MatrixCore
@@ -45,11 +51,26 @@ params:
     socialIcons:
         - name: github
           url: "https://github.com/matrixcore/matrixcore"
+        - name: Matrix
+          url: https://matrix.to/#/#matrixcore:petabyte.dev
 
     editPost:
-      URL: "https://github.com/MatrixCore/blog/content"
+      URL: "https://github.com/MatrixCore/blog/blob/main/content"
       Text: "Suggest Changes"
       appendFilePath: true
+
+    profileMode:
+      enabled: false
+      title: MatrixCore
+      imageUrl: "#"
+      #imageTitle: my image
+      # imageWidth: 120
+      # imageHeight: 120
+      buttons:
+        - name: Blog
+          url: blog
+        - name: Tags
+          url: tags
 
     fuseOpts:
         isCaseSensitive: false
@@ -62,10 +83,14 @@ params:
 
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
+        - identifier: posts
+          name: posts
+          url: /posts
           weight: 10
+        #- identifier: categories
+        #  name: categories
+        #  url: /categories/
+        #  weight: 10
         - identifier: tags
           name: tags
           url: /tags/
